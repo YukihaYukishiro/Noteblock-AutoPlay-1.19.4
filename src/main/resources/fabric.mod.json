@@ -3,23 +3,20 @@
 	"id": "auto_nbs_player",
 	"version": "${version}",
 	"name": "auto_nbs_player",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is n auto nbs player mod",
 	"authors": [
-		"Me!"
+		"yukihayukishiro"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/auto_nbs_player/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.github.yukihayukishiro.auto_nbt.Auto_nbs_player"
-		],
-		"fabric-datagen": [
-			"com.github.yukihayukishiro.auto_nbt.Auto_nbs_playerDataGenerator"
+			"com.github.yukihayukishiro.auto_nbt.AutoNbsPlayerMod"
 		]
 	},
 	"mixins": [
