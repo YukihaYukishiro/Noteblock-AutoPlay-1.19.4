@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "auto_nbs_player",
+	"version": "${version}",
+	"name": "auto_nbs_player",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/auto_nbs_player/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.yukihayukishiro.auto_nbt.Auto_nbs_player"
+		],
+		"fabric-datagen": [
+			"com.github.yukihayukishiro.auto_nbt.Auto_nbs_playerDataGenerator"
+		]
+	},
+	"mixins": [
+		"auto_nbs_player.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
