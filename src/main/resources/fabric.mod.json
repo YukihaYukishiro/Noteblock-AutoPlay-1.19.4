@@ -3,7 +3,7 @@
 	"id": "auto_nbs_player",
 	"version": "${version}",
 	"name": "auto_nbs_player",
-	"description": "This is n auto nbs player mod",
+	"description": "This is an auto nbs player mod",
 	"authors": [
 		"yukihayukishiro"
 	],
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.github.yukihayukishiro.auto_nbt.AutoNbsPlayerMod"
+			"com.github.yukihayukishiro.auto_nbt.AutoNbsPlayer"
 		]
 	},
 	"mixins": [
