@@ -3,7 +3,6 @@ package com.github.yukihayukishiro.auto_nbt;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.text.Text;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -44,6 +43,7 @@ public class AutoNbsPlayer implements ModInitializer {
 			}
 				catch (IOException e) {}
 		}
+		ANPRegister.registerEverything();
 	}
 
 	
