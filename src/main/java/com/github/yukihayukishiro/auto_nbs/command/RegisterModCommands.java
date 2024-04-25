@@ -19,7 +19,8 @@ public class RegisterModCommands {
                                                                 .executes(HelloWorld::run))
                                                 .then((LiteralArgumentBuilder) CommandManager
                                                                 .literal("getblockaroundplayer")
-                                                                .executes(GetBlockAroundPlayerTest::run)))));
+                                                                .executes(GetBlockAroundPlayerTest::run))
+                                                                )));
         }
 
 }
