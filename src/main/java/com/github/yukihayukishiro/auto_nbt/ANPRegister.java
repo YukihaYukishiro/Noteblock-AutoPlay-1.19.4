@@ -1,6 +1,6 @@
 package com.github.yukihayukishiro.auto_nbt;
 
-import com.github.yukihayukishiro.auto_nbt.command.testCommands.TestingCommand;
+import com.github.yukihayukishiro.auto_nbt.command.testCommands.RegisterModCommands;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 
@@ -10,7 +10,6 @@ public class ANPRegister {
     }
 
     private static void registerCommands() {
-        CommandRegistrationCallback.EVENT.register(TestingCommand::register);
-
+        CommandRegistrationCallback.EVENT.register(RegisterModCommands::register);
     }
 }
