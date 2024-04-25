@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.github.yukihayukishiro.auto_nbt.AutoNbsPlayer"
+			"com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer"
 		]
 	},
 	"mixins": [

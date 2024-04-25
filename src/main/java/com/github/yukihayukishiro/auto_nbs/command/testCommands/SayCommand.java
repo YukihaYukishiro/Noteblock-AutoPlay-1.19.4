@@ -1,3 +1,4 @@
+package com.github.yukihayukishiro.auto_nbs.command.testCommands;
 // /*
 // * Decompiled with CFR 0.2.2 (FabricMC 7c48b8c4).
 // */

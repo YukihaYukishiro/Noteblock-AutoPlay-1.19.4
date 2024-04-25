@@ -1,5 +1,6 @@
-package com.github.yukihayukishiro.auto_nbt.command.testCommands;
+package com.github.yukihayukishiro.auto_nbs.command;
 
+import com.github.yukihayukishiro.auto_nbs.command.testCommands.*;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import net.minecraft.command.CommandRegistryAccess;

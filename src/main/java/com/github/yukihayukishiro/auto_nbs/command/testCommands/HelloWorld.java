@@ -1,4 +1,4 @@
-package com.github.yukihayukishiro.auto_nbt.command.testCommands;
+package com.github.yukihayukishiro.auto_nbs.command.testCommands;
 
 import com.mojang.brigadier.context.CommandContext;
 

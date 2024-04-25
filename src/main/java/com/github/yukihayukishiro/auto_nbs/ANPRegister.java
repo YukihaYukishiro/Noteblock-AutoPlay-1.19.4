@@ -1,6 +1,6 @@
-package com.github.yukihayukishiro.auto_nbt;
+package com.github.yukihayukishiro.auto_nbs;
 
-import com.github.yukihayukishiro.auto_nbt.command.testCommands.RegisterModCommands;
+import com.github.yukihayukishiro.auto_nbs.command.RegisterModCommands;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 

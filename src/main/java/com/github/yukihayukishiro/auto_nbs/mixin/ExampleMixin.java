@@ -1,4 +1,4 @@
-package com.github.yukihayukishiro.auto_nbt.mixin;
+package com.github.yukihayukishiro.auto_nbs.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
