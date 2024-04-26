@@ -1,5 +1,5 @@
-[13:02:51] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.15.10
-[13:02:51] [main/INFO] (FabricLoader) Loading 59 mods:
+[04:50:11] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.4 with Fabric Loader 0.15.10
+[04:50:11] [main/INFO] (FabricLoader) Loading 59 mods:
 	- auto_nbs_player 0.1-1.19.4
 	- fabric-api 0.87.2+1.19.4
 	- fabric-api-base 0.4.28+737a6ee8f4
@@ -59,22 +59,24 @@
 	- malilib 0.15.4
 	- minecraft 1.19.4
 	- mixinextras 0.3.5
-[13:02:57] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/n1230023.STCN2/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[13:02:57] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[13:02:57] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[13:02:57] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[13:03:00] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[13:03:09] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 158 milliseconds
-[13:03:12] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[13:03:12] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:03:13] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[04:50:13] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/apple/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[04:50:13] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[04:50:13] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[04:50:13] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[04:50:14] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[04:50:15] [main/WARN] (PerfDataUtil) Failed to update counter. Error code: 0x800007D5
+[04:50:15] [main/WARN] (PerfCounterQuery) Disabling further attempts to query Paging File.
+[04:50:18] [Datafixer Bootstrap/INFO] (Minecraft) 180 Datafixer optimizations took 71 milliseconds
+[04:50:19] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[04:50:19] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:50:20] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.18.38.jar:?]
-	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:712) ~[minecraft-merged-3b1fc6157b-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:506) ~[minecraft-merged-3b1fc6157b-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:724) ~[minecraft-merged-3b1fc6157b-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:518) ~[minecraft-merged-3b1fc6157b-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
 	at net.minecraft.client.main.Main.main(Main.java:178) ~[minecraft-merged-3b1fc6157b-1.19.4-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.10.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.10.jar:?]
@@ -85,253 +87,167 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
 	... 9 more
-[13:03:13] [Render thread/INFO] (Minecraft) Setting user: Player526
-[13:03:13] [Render thread/INFO] (auto_nbs_player) Hello Fabric world!
-[13:03:13] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[13:03:14] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[13:03:16] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-keybindings-v0, fabric-dimensions-v1, fabric-gametest-api-v1, fabric-item-group-api-v1, fabric-sound-api-v1, fabric-renderer-indigo, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-convention-tags-v1, fabric-transitive-access-wideners-v1, fabric-rendering-v0, fabric-models-v0, fabric-loot-api-v2, fabric-registry-sync-v0, fabric-networking-api-v1, fabric-item-api-v1, fabric-object-builder-api-v1, fabric-api-lookup-api-v1, fabricloader, fabric-loot-tables-v1, fabric-api, fabric-events-interaction-v0, fabric-entity-events-v1, fabric-data-generation-api-v1, fabric-api-base, fabric-rendering-v1, fabric-biome-api-v1, fabric-model-loading-api-v1, fabric-lifecycle-events-v1, malilib, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, auto_nbs_player, fabric-command-api-v2, fabric-networking-v0, fabric-key-binding-api-v1, fabric-renderer-api-v1, fabric-mining-level-api-v1, fabric-crash-report-info-v1, fabric-recipe-api-v1, fabric-block-api-v1, fabric-renderer-registries-v1, fabric-blockrenderlayer-v1, fabric-game-rule-api-v1, fabric-particles-v1, fabric-resource-loader-v0, fabric-events-lifecycle-v0, fabric-command-api-v1, fabric-content-registries-v0, litematica, fabric-screen-api-v1, fabric-commands-v0, fabric-screen-handler-api-v1, fabric-containers-v0, fabric-transfer-api-v1, fabric-resource-conditions-api-v1), file/Better+Noteblocks+(Style+A).zip
-[13:03:16] [Worker-Main-6/WARN] (Minecraft) Texture minecraft:block/note_block/powered/nb_on with size 1x1 limits mip level from 4 to 0
-[13:03:16] [Worker-Main-6/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
-[13:03:16] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[13:03:18] [Worker-Main-2/WARN] (Minecraft) Missing textures in model minecraft:note_block#instrument=skeleton,note=7,powered=false:
+[04:50:20] [Render thread/INFO] (Minecraft) Setting user: Player467
+[04:50:20] [Render thread/INFO] (auto_nbs_player) Hello Fabric world!
+[04:50:20] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[04:50:20] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[04:50:21] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-biome-api-v1, fabric-rendering-fluids-v1, fabric-data-generation-api-v1, fabric-events-lifecycle-v0, fabric-item-group-api-v1, fabric-loot-tables-v1, fabric-networking-api-v1, fabric-message-api-v1, fabric-models-v0, fabric-registry-sync-v0, fabric-convention-tags-v1, fabric-key-binding-api-v1, fabric-loot-api-v2, fabric-keybindings-v0, fabric-blockrenderlayer-v1, fabric-screen-handler-api-v1, fabric-command-api-v2, fabric-gametest-api-v1, fabric-dimensions-v1, fabric-networking-v0, fabric-rendering-v1, fabric-containers-v0, fabric-crash-report-info-v1, fabric-resource-loader-v0, fabric-api-lookup-api-v1, fabric-model-loading-api-v1, fabricloader, fabric-item-api-v1, litematica, fabric-renderer-registries-v1, fabric-content-registries-v0, auto_nbs_player, fabric-client-tags-api-v1, fabric-lifecycle-events-v1, fabric-block-api-v1, fabric-entity-events-v1, fabric-rendering-v0, fabric-command-api-v1, fabric-particles-v1, fabric-api, fabric-commands-v0, fabric-transfer-api-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-mining-level-api-v1, fabric-sound-api-v1, fabric-screen-api-v1, fabric-object-builder-api-v1, fabric-transitive-access-wideners-v1, fabric-resource-conditions-api-v1, fabric-recipe-api-v1, fabric-rendering-data-attachment-v1, fabric-renderer-indigo, fabric-api-base, fabric-renderer-api-v1, malilib), file/Better+Noteblocks+(Style+A).zip
+[04:50:22] [Worker-Main-20/WARN] (Minecraft) Texture minecraft:block/note_block/powered/nb_on with size 1x1 limits mip level from 4 to 0
+[04:50:22] [Worker-Main-20/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 0, because of minimum power of two: 1
+[04:50:22] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[04:50:22] [Worker-Main-1/WARN] (Minecraft) Missing textures in model minecraft:note_block#instrument=skeleton,note=7,powered=false:
     minecraft:textures/atlas/blocks.png:minecraft:block/note_block/note/instrument/note_block
-[13:03:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
-[13:03:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
-[13:03:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[13:03:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13:03:18] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
-[13:03:19] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on スピーカー (Realtek(R) Audio)
-[13:03:19] [Render thread/INFO] (Minecraft) Sound engine started
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13:03:19] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13:03:20] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13:03:21] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[13:03:21] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13:03:21] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13:03:27] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
-[13:03:28] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[13:03:28] [Render thread/INFO] (Minecraft) Loaded 1179 advancements
-[13:03:29] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 2.127 ms
-[13:03:29] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
-[13:03:29] [Server thread/INFO] (Minecraft) Generating keypair
-[13:03:29] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:32] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[13:03:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 16%
-[13:03:33] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
-[13:03:34] [Render thread/INFO] (Minecraft) Preparing spawn area: 88%
-[13:03:34] [Render thread/INFO] (Minecraft) Time elapsed: 4614 ms
-[13:03:34] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[13:03:34] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[13:03:36] [Server thread/INFO] (Minecraft) Player526[local:E:29a936be] logged in with entity id 1 at (-43.43168933790635, 67.0, -16.387929150376042)
-[13:03:36] [Server thread/INFO] (Minecraft) Player526 joined the game
-[13:03:36] [Render thread/INFO] (litematica) Using 3 total BufferBuilder caches
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: east with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: south with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: north with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: west with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: east with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: south with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: north with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:36] [Render thread/WARN] (Minecraft) Unable to read property: west with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
-[13:03:37] [Render thread/INFO] (Minecraft) Loaded 49 advancements
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] Command executed!!
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] Player position: BlockPos{x=-44, y=67, z=-17}
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] First: Air
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] Last: Air
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 0 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Orange Wool ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Air ],[ Air ],[ Oak Planks ],[ Air ],[ White Wool ],[ Air ],[ Oak Planks ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Air ],[ Air ],[ Air ],[ White Wool ],[ Air ],[ White Wool ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Air ],[ Air ],[ White Wool ],[ Air ],[ Air ],[ Air ],[ White Wool ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Air ],[ Air ],[ Air ],[ White Wool ],[ Air ],[ White Wool ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Air ],[ Air ],[ Block of Gold ],[ Air ],[ White Wool ],[ Air ],[ Block of Gold ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Orange Wool ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 1 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Oak Planks ],[ Oak Planks ],[ Oak Planks ],[ Oak Planks ],[ Oak Planks ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Stone Slab ],[ Oak Planks ],[ Oak Planks ],[ White Wool ],[ Oak Planks ],[ Oak Planks ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Oak Planks ],[ Oak Planks ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ Oak Planks ],[ Oak Planks ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Oak Planks ],[ Oak Planks ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Oak Planks ],[ Oak Planks ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Oak Planks ],[ White Wool ],[ Note Block ],[ White Wool ],[ Air ],[ White Wool ],[ Note Block ],[ White Wool ],[ Oak Planks ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Block of Gold ],[ Block of Gold ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Block of Gold ],[ Block of Gold ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Block of Gold ],[ Block of Gold ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ Block of Gold ],[ Block of Gold ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Air ],[ Block of Gold ],[ Block of Gold ],[ White Wool ],[ Block of Gold ],[ Block of Gold ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Block of Gold ],[ Block of Gold ],[ Block of Gold ],[ Block of Gold ],[ Block of Gold ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 2 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Sand ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Stone ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ White Wool ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Block of Gold ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Block of Gold ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 3 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Oak Planks ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Oak Planks ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Oak Planks ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Oak Planks ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Block of Gold ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Block of Gold ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Block of Gold ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Gold ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 4 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Note Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Note Block ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Note Block ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Note Block ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 5 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Glass ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 6 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Soul Sand ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Bone Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Block of Iron ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Block of Iron ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 7 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Note Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Note Block ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Note Block ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Note Block ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 8 ]=====
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Orange Wool ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:03:43] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Command executed!!
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Player position: BlockPos{x=-44, y=67, z=-17}
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] First: Air
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Last: Air
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 0 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Orange Wool ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Air ],[ Air ],[ Oak Planks ],[ Air ],[ White Wool ],[ Air ],[ Oak Planks ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Air ],[ Air ],[ Air ],[ White Wool ],[ Air ],[ White Wool ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Air ],[ Air ],[ White Wool ],[ Air ],[ Air ],[ Air ],[ White Wool ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Air ],[ Air ],[ Air ],[ White Wool ],[ Air ],[ White Wool ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Air ],[ Air ],[ Block of Gold ],[ Air ],[ White Wool ],[ Air ],[ Block of Gold ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Orange Wool ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 1 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Oak Planks ],[ Oak Planks ],[ Oak Planks ],[ Oak Planks ],[ Oak Planks ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Stone Slab ],[ Oak Planks ],[ Oak Planks ],[ White Wool ],[ Oak Planks ],[ Oak Planks ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Oak Planks ],[ Oak Planks ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ Oak Planks ],[ Oak Planks ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Oak Planks ],[ Oak Planks ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Oak Planks ],[ Oak Planks ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Oak Planks ],[ White Wool ],[ Note Block ],[ White Wool ],[ Air ],[ White Wool ],[ Note Block ],[ White Wool ],[ Oak Planks ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Block of Gold ],[ Block of Gold ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Block of Gold ],[ Block of Gold ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Block of Gold ],[ Block of Gold ],[ Note Block ],[ White Wool ],[ Note Block ],[ White Wool ],[ Note Block ],[ Block of Gold ],[ Block of Gold ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Air ],[ Block of Gold ],[ Block of Gold ],[ White Wool ],[ Block of Gold ],[ Block of Gold ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Block of Gold ],[ Block of Gold ],[ Block of Gold ],[ Block of Gold ],[ Block of Gold ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 2 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Sand ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Stone ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ White Wool ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Block of Gold ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Block of Gold ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 3 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Oak Planks ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Oak Planks ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Oak Planks ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Oak Planks ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Yellow Wool ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Red Wool ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Block of Gold ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Block of Gold ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Block of Gold ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Gold ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 4 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Note Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Note Block ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Note Block ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Note Block ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 5 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Glass ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 6 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Soul Sand ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Bone Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Block of Iron ],[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],[ Block of Iron ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 7 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Air ],[ Note Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Bone Block ],[ Note Block ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Bone Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Bone Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Block of Iron ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Block of Iron ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Note Block ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Note Block ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Block of Iron ],[ Note Block ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] =====[ 8 ]=====
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x0=>[ Orange Wool ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x1=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x2=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x3=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x4=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x5=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x6=>[ Note Block ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Note Block ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x7=>[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],[ Air ],
-[13:07:56] [Render thread/INFO] (Minecraft) [System] [CHAT] x8=>[ Air ],[ Air ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Note Block ],[ Air ],[ Air ],
+[04:50:22] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brushing
+[04:50:22] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.brush.brush_sand_completed
+[04:50:22] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[04:50:22] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[04:50:22] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:music.overworld.cherry_grove
+[04:50:22] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on スピーカー (Logitech G733 Gaming Headset)
+[04:50:22] [Render thread/INFO] (Minecraft) Sound engine started
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/blocks.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04:50:22] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[04:50:23] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[04:50:23] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[04:50:23] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04:50:23] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04:50:43] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[04:50:43] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[04:50:44] [Render thread/INFO] (Minecraft) Loaded 1179 advancements
+[04:50:44] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 1.081 ms
+[04:50:44] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.19.4
+[04:50:44] [Server thread/INFO] (Minecraft) Generating keypair
+[04:50:44] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[04:50:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[04:50:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[04:50:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[04:50:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[04:50:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 59%
+[04:50:46] [Render thread/INFO] (Minecraft) Time elapsed: 2089 ms
+[04:50:46] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[04:50:46] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[04:50:47] [Server thread/INFO] (Minecraft) Player467[local:E:1593b9a1] logged in with entity id 1 at (-43.64946465442768, 67.0, -16.47356628124047)
+[04:50:47] [Server thread/INFO] (Minecraft) Player467 joined the game
+[04:50:47] [Render thread/INFO] (litematica) Using 3 total BufferBuilder caches
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: east with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: south with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: north with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: west with value: false for blockstate: {Name:"minecraft:cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: east with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: south with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: north with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/WARN] (Minecraft) Unable to read property: west with value: false for blockstate: {Name:"minecraft:mossy_cobblestone_wall",Properties:{east:"false",north:"false",south:"false",up:"false",west:"false"}}
+[04:50:48] [Render thread/INFO] (Minecraft) Loaded 25 advancements
+[04:50:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Command executed!!
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 0 ]=====
+[04:50:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Player position: BlockPos{x=-44, y=67, z=-17}
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ green_wool0,0,0 ],Matched with green_wool[ air0,0,1 ],Matched with air[ air0,0,2 ],Matched with air[ air0,0,3 ],Matched with air[ air0,0,4 ],Matched with air[ air0,0,5 ],Matched with air[ air0,0,6 ],Matched with air[ air0,0,7 ],Matched with air[ lime_wool0,0,8 ],Matched with lime_wool
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ air1,0,0 ],Matched with air[ air1,0,1 ],Matched with air[ air1,0,2 ],Matched with air[ air1,0,3 ],Matched with air[ air1,0,4 ],Matched with air[ air1,0,5 ],Matched with air[ air1,0,6 ],Matched with air[ air1,0,7 ],Matched with air[ air1,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ air2,0,0 ],Matched with air[ air2,0,1 ],Matched with air[ gold_block2,0,2 ],Matched with gold_block[ air2,0,3 ],Matched with air[ white_wool2,0,4 ],Matched with white_wool[ air2,0,5 ],Matched with air[ gold_block2,0,6 ],Matched with gold_block[ air2,0,7 ],Matched with air[ air2,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ air3,0,0 ],Matched with air[ air3,0,1 ],Matched with air[ air3,0,2 ],Matched with air[ white_wool3,0,3 ],Matched with white_wool[ air3,0,4 ],Matched with air[ white_wool3,0,5 ],Matched with white_wool[ air3,0,6 ],Matched with air[ air3,0,7 ],Matched with air[ air3,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ air4,0,0 ],Matched with air[ air4,0,1 ],Matched with air[ white_wool4,0,2 ],Matched with white_wool[ air4,0,3 ],Matched with air[ air4,0,4 ],Matched with air[ air4,0,5 ],Matched with air[ white_wool4,0,6 ],Matched with white_wool[ air4,0,7 ],Matched with air[ air4,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ air5,0,0 ],Matched with air[ air5,0,1 ],Matched with air[ air5,0,2 ],Matched with air[ white_wool5,0,3 ],Matched with white_wool[ air5,0,4 ],Matched with air[ white_wool5,0,5 ],Matched with white_wool[ air5,0,6 ],Matched with air[ air5,0,7 ],Matched with air[ air5,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ air6,0,0 ],Matched with air[ air6,0,1 ],Matched with air[ oak_planks6,0,2 ],Matched with oak_planks[ air6,0,3 ],Matched with air[ white_wool6,0,4 ],Matched with white_wool[ air6,0,5 ],Matched with air[ oak_planks6,0,6 ],Matched with oak_planks[ air6,0,7 ],Matched with air[ air6,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ air7,0,0 ],Matched with air[ air7,0,1 ],Matched with air[ air7,0,2 ],Matched with air[ air7,0,3 ],Matched with air[ air7,0,4 ],Matched with air[ air7,0,5 ],Matched with air[ air7,0,6 ],Matched with air[ air7,0,7 ],Matched with air[ air7,0,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ blue_wool8,0,0 ],Matched with blue_wool[ air8,0,1 ],Matched with air[ air8,0,2 ],Matched with air[ air8,0,3 ],Matched with air[ air8,0,4 ],Matched with air[ air8,0,5 ],Matched with air[ air8,0,6 ],Matched with air[ air8,0,7 ],Matched with air[ light_blue_wool8,0,8 ],Matched with light_blue_wool
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 1 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,1,0 ],Matched with air[ air0,1,1 ],Matched with air[ gold_block0,1,2 ],Matched with gold_block[ gold_block0,1,3 ],Matched with gold_block[ gold_block0,1,4 ],Matched with gold_block[ gold_block0,1,5 ],Matched with gold_block[ gold_block0,1,6 ],Matched with gold_block[ air0,1,7 ],Matched with air[ air0,1,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ air1,1,0 ],Matched with air[ air1,1,1 ],Matched with air[ gold_block1,1,2 ],Matched with gold_block[ gold_block1,1,3 ],Matched with gold_block[ white_wool1,1,4 ],Matched with white_wool[ gold_block1,1,5 ],Matched with gold_block[ gold_block1,1,6 ],Matched with gold_block[ air1,1,7 ],Matched with air[ air1,1,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ gold_block2,1,0 ],Matched with gold_block[ gold_block2,1,1 ],Matched with gold_block[ note_block2,1,2 ],Matched with note_block[ white_wool2,1,3 ],Matched with white_wool[ note_block2,1,4 ],Matched with note_block[ white_wool2,1,5 ],Matched with white_wool[ note_block2,1,6 ],Matched with note_block[ gold_block2,1,7 ],Matched with gold_block[ gold_block2,1,8 ],Matched with gold_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ gold_block3,1,0 ],Matched with gold_block[ gold_block3,1,1 ],Matched with gold_block[ white_wool3,1,2 ],Matched with white_wool[ note_block3,1,3 ],Matched with note_block[ white_wool3,1,4 ],Matched with white_wool[ note_block3,1,5 ],Matched with note_block[ white_wool3,1,6 ],Matched with white_wool[ gold_block3,1,7 ],Matched with gold_block[ gold_block3,1,8 ],Matched with gold_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ oak_planks4,1,0 ],Matched with oak_planks[ white_wool4,1,1 ],Matched with white_wool[ note_block4,1,2 ],Matched with note_block[ white_wool4,1,3 ],Matched with white_wool[ air4,1,4 ],Matched with air[ white_wool4,1,5 ],Matched with white_wool[ note_block4,1,6 ],Matched with note_block[ white_wool4,1,7 ],Matched with white_wool[ oak_planks4,1,8 ],Matched with oak_planks
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ oak_planks5,1,0 ],Matched with oak_planks[ oak_planks5,1,1 ],Matched with oak_planks[ white_wool5,1,2 ],Matched with white_wool[ note_block5,1,3 ],Matched with note_block[ white_wool5,1,4 ],Matched with white_wool[ note_block5,1,5 ],Matched with note_block[ white_wool5,1,6 ],Matched with white_wool[ oak_planks5,1,7 ],Matched with oak_planks[ oak_planks5,1,8 ],Matched with oak_planks
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ oak_planks6,1,0 ],Matched with oak_planks[ oak_planks6,1,1 ],Matched with oak_planks[ note_block6,1,2 ],Matched with note_block[ white_wool6,1,3 ],Matched with white_wool[ note_block6,1,4 ],Matched with note_block[ white_wool6,1,5 ],Matched with white_wool[ note_block6,1,6 ],Matched with note_block[ oak_planks6,1,7 ],Matched with oak_planks[ oak_planks6,1,8 ],Matched with oak_planks
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ air7,1,0 ],Matched with air[ stone_slab7,1,1 ],Matched with stone_slab[ oak_planks7,1,2 ],Matched with oak_planks[ oak_planks7,1,3 ],Matched with oak_planks[ white_wool7,1,4 ],Matched with white_wool[ oak_planks7,1,5 ],Matched with oak_planks[ oak_planks7,1,6 ],Matched with oak_planks[ air7,1,7 ],Matched with air[ air7,1,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,1,0 ],Matched with air[ air8,1,1 ],Matched with air[ oak_planks8,1,2 ],Matched with oak_planks[ oak_planks8,1,3 ],Matched with oak_planks[ oak_planks8,1,4 ],Matched with oak_planks[ oak_planks8,1,5 ],Matched with oak_planks[ oak_planks8,1,6 ],Matched with oak_planks[ air8,1,7 ],Matched with air[ air8,1,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 2 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,2,0 ],Matched with air[ air0,2,1 ],Matched with air[ note_block0,2,2 ],Matched with note_block[ note_block0,2,3 ],Matched with note_block[ note_block0,2,4 ],Matched with note_block[ note_block0,2,5 ],Matched with note_block[ note_block0,2,6 ],Matched with note_block[ air0,2,7 ],Matched with air[ air0,2,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ air1,2,0 ],Matched with air[ gold_block1,2,1 ],Matched with gold_block[ note_block1,2,2 ],Matched with note_block[ note_block1,2,3 ],Matched with note_block[ note_block1,2,4 ],Matched with note_block[ note_block1,2,5 ],Matched with note_block[ note_block1,2,6 ],Matched with note_block[ gold_block1,2,7 ],Matched with gold_block[ air1,2,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ note_block2,2,0 ],Matched with note_block[ note_block2,2,1 ],Matched with note_block[ air2,2,2 ],Matched with air[ note_block2,2,3 ],Matched with note_block[ air2,2,4 ],Matched with air[ note_block2,2,5 ],Matched with note_block[ air2,2,6 ],Matched with air[ note_block2,2,7 ],Matched with note_block[ note_block2,2,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ note_block3,2,0 ],Matched with note_block[ note_block3,2,1 ],Matched with note_block[ note_block3,2,2 ],Matched with note_block[ air3,2,3 ],Matched with air[ note_block3,2,4 ],Matched with note_block[ air3,2,5 ],Matched with air[ note_block3,2,6 ],Matched with note_block[ note_block3,2,7 ],Matched with note_block[ note_block3,2,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ note_block4,2,0 ],Matched with note_block[ note_block4,2,1 ],Matched with note_block[ air4,2,2 ],Matched with air[ note_block4,2,3 ],Matched with note_block[ white_wool4,2,4 ],Matched with white_wool[ note_block4,2,5 ],Matched with note_block[ air4,2,6 ],Matched with air[ note_block4,2,7 ],Matched with note_block[ note_block4,2,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ note_block5,2,0 ],Matched with note_block[ note_block5,2,1 ],Matched with note_block[ note_block5,2,2 ],Matched with note_block[ air5,2,3 ],Matched with air[ note_block5,2,4 ],Matched with note_block[ air5,2,5 ],Matched with air[ note_block5,2,6 ],Matched with note_block[ note_block5,2,7 ],Matched with note_block[ note_block5,2,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ note_block6,2,0 ],Matched with note_block[ note_block6,2,1 ],Matched with note_block[ air6,2,2 ],Matched with air[ note_block6,2,3 ],Matched with note_block[ air6,2,4 ],Matched with air[ note_block6,2,5 ],Matched with note_block[ air6,2,6 ],Matched with air[ note_block6,2,7 ],Matched with note_block[ note_block6,2,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ air7,2,0 ],Matched with air[ sand7,2,1 ],Matched with sand[ note_block7,2,2 ],Matched with note_block[ note_block7,2,3 ],Matched with note_block[ note_block7,2,4 ],Matched with note_block[ note_block7,2,5 ],Matched with note_block[ note_block7,2,6 ],Matched with note_block[ stone7,2,7 ],Matched with stone[ air7,2,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,2,0 ],Matched with air[ air8,2,1 ],Matched with air[ note_block8,2,2 ],Matched with note_block[ note_block8,2,3 ],Matched with note_block[ note_block8,2,4 ],Matched with note_block[ note_block8,2,5 ],Matched with note_block[ note_block8,2,6 ],Matched with note_block[ air8,2,7 ],Matched with air[ air8,2,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 3 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,3,0 ],Matched with air[ gold_block0,3,1 ],Matched with gold_block[ air0,3,2 ],Matched with air[ air0,3,3 ],Matched with air[ air0,3,4 ],Matched with air[ air0,3,5 ],Matched with air[ air0,3,6 ],Matched with air[ gold_block0,3,7 ],Matched with gold_block[ air0,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ gold_block1,3,0 ],Matched with gold_block[ note_block1,3,1 ],Matched with note_block[ air1,3,2 ],Matched with air[ air1,3,3 ],Matched with air[ air1,3,4 ],Matched with air[ air1,3,5 ],Matched with air[ air1,3,6 ],Matched with air[ note_block1,3,7 ],Matched with note_block[ gold_block1,3,8 ],Matched with gold_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ air2,3,0 ],Matched with air[ air2,3,1 ],Matched with air[ air2,3,2 ],Matched with air[ air2,3,3 ],Matched with air[ air2,3,4 ],Matched with air[ air2,3,5 ],Matched with air[ air2,3,6 ],Matched with air[ air2,3,7 ],Matched with air[ air2,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ air3,3,0 ],Matched with air[ air3,3,1 ],Matched with air[ air3,3,2 ],Matched with air[ air3,3,3 ],Matched with air[ air3,3,4 ],Matched with air[ air3,3,5 ],Matched with air[ air3,3,6 ],Matched with air[ air3,3,7 ],Matched with air[ air3,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ air4,3,0 ],Matched with air[ air4,3,1 ],Matched with air[ air4,3,2 ],Matched with air[ air4,3,3 ],Matched with air[ note_block4,3,4 ],Matched with note_block[ air4,3,5 ],Matched with air[ air4,3,6 ],Matched with air[ air4,3,7 ],Matched with air[ air4,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ air5,3,0 ],Matched with air[ air5,3,1 ],Matched with air[ air5,3,2 ],Matched with air[ air5,3,3 ],Matched with air[ air5,3,4 ],Matched with air[ air5,3,5 ],Matched with air[ air5,3,6 ],Matched with air[ air5,3,7 ],Matched with air[ air5,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ air6,3,0 ],Matched with air[ air6,3,1 ],Matched with air[ air6,3,2 ],Matched with air[ air6,3,3 ],Matched with air[ air6,3,4 ],Matched with air[ air6,3,5 ],Matched with air[ air6,3,6 ],Matched with air[ air6,3,7 ],Matched with air[ air6,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ oak_planks7,3,0 ],Matched with oak_planks[ note_block7,3,1 ],Matched with note_block[ air7,3,2 ],Matched with air[ air7,3,3 ],Matched with air[ air7,3,4 ],Matched with air[ air7,3,5 ],Matched with air[ air7,3,6 ],Matched with air[ note_block7,3,7 ],Matched with note_block[ oak_planks7,3,8 ],Matched with oak_planks
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,3,0 ],Matched with air[ oak_planks8,3,1 ],Matched with oak_planks[ air8,3,2 ],Matched with air[ air8,3,3 ],Matched with air[ air8,3,4 ],Matched with air[ air8,3,5 ],Matched with air[ air8,3,6 ],Matched with air[ oak_planks8,3,7 ],Matched with oak_planks[ air8,3,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 4 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,4,0 ],Matched with air[ note_block0,4,1 ],Matched with note_block[ iron_block0,4,2 ],Matched with iron_block[ iron_block0,4,3 ],Matched with iron_block[ iron_block0,4,4 ],Matched with iron_block[ iron_block0,4,5 ],Matched with iron_block[ iron_block0,4,6 ],Matched with iron_block[ note_block0,4,7 ],Matched with note_block[ air0,4,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ note_block1,4,0 ],Matched with note_block[ air1,4,1 ],Matched with air[ air1,4,2 ],Matched with air[ air1,4,3 ],Matched with air[ air1,4,4 ],Matched with air[ air1,4,5 ],Matched with air[ air1,4,6 ],Matched with air[ air1,4,7 ],Matched with air[ note_block1,4,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ iron_block2,4,0 ],Matched with iron_block[ air2,4,1 ],Matched with air[ air2,4,2 ],Matched with air[ air2,4,3 ],Matched with air[ air2,4,4 ],Matched with air[ air2,4,5 ],Matched with air[ air2,4,6 ],Matched with air[ air2,4,7 ],Matched with air[ iron_block2,4,8 ],Matched with iron_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ iron_block3,4,0 ],Matched with iron_block[ air3,4,1 ],Matched with air[ air3,4,2 ],Matched with air[ air3,4,3 ],Matched with air[ air3,4,4 ],Matched with air[ air3,4,5 ],Matched with air[ air3,4,6 ],Matched with air[ air3,4,7 ],Matched with air[ iron_block3,4,8 ],Matched with iron_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ bone_block4,4,0 ],Matched with bone_block[ air4,4,1 ],Matched with air[ air4,4,2 ],Matched with air[ air4,4,3 ],Matched with air[ air4,4,4 ],Matched with air[ air4,4,5 ],Matched with air[ air4,4,6 ],Matched with air[ air4,4,7 ],Matched with air[ iron_block4,4,8 ],Matched with iron_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ bone_block5,4,0 ],Matched with bone_block[ air5,4,1 ],Matched with air[ air5,4,2 ],Matched with air[ air5,4,3 ],Matched with air[ air5,4,4 ],Matched with air[ air5,4,5 ],Matched with air[ air5,4,6 ],Matched with air[ air5,4,7 ],Matched with air[ bone_block5,4,8 ],Matched with bone_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ bone_block6,4,0 ],Matched with bone_block[ air6,4,1 ],Matched with air[ air6,4,2 ],Matched with air[ air6,4,3 ],Matched with air[ air6,4,4 ],Matched with air[ air6,4,5 ],Matched with air[ air6,4,6 ],Matched with air[ air6,4,7 ],Matched with air[ bone_block6,4,8 ],Matched with bone_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ note_block7,4,0 ],Matched with note_block[ air7,4,1 ],Matched with air[ air7,4,2 ],Matched with air[ air7,4,3 ],Matched with air[ air7,4,4 ],Matched with air[ air7,4,5 ],Matched with air[ air7,4,6 ],Matched with air[ air7,4,7 ],Matched with air[ note_block7,4,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,4,0 ],Matched with air[ note_block8,4,1 ],Matched with note_block[ bone_block8,4,2 ],Matched with bone_block[ bone_block8,4,3 ],Matched with bone_block[ bone_block8,4,4 ],Matched with bone_block[ bone_block8,4,5 ],Matched with bone_block[ bone_block8,4,6 ],Matched with bone_block[ note_block8,4,7 ],Matched with note_block[ air8,4,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 5 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,5,0 ],Matched with air[ air0,5,1 ],Matched with air[ note_block0,5,2 ],Matched with note_block[ note_block0,5,3 ],Matched with note_block[ note_block0,5,4 ],Matched with note_block[ note_block0,5,5 ],Matched with note_block[ note_block0,5,6 ],Matched with note_block[ air0,5,7 ],Matched with air[ air0,5,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ air1,5,0 ],Matched with air[ iron_block1,5,1 ],Matched with iron_block[ air1,5,2 ],Matched with air[ air1,5,3 ],Matched with air[ air1,5,4 ],Matched with air[ air1,5,5 ],Matched with air[ air1,5,6 ],Matched with air[ iron_block1,5,7 ],Matched with iron_block[ air1,5,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ note_block2,5,0 ],Matched with note_block[ air2,5,1 ],Matched with air[ air2,5,2 ],Matched with air[ air2,5,3 ],Matched with air[ air2,5,4 ],Matched with air[ air2,5,5 ],Matched with air[ air2,5,6 ],Matched with air[ air2,5,7 ],Matched with air[ note_block2,5,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ note_block3,5,0 ],Matched with note_block[ air3,5,1 ],Matched with air[ air3,5,2 ],Matched with air[ air3,5,3 ],Matched with air[ air3,5,4 ],Matched with air[ air3,5,5 ],Matched with air[ air3,5,6 ],Matched with air[ air3,5,7 ],Matched with air[ note_block3,5,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ note_block4,5,0 ],Matched with note_block[ air4,5,1 ],Matched with air[ air4,5,2 ],Matched with air[ air4,5,3 ],Matched with air[ air4,5,4 ],Matched with air[ air4,5,5 ],Matched with air[ air4,5,6 ],Matched with air[ air4,5,7 ],Matched with air[ note_block4,5,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ note_block5,5,0 ],Matched with note_block[ air5,5,1 ],Matched with air[ air5,5,2 ],Matched with air[ air5,5,3 ],Matched with air[ air5,5,4 ],Matched with air[ air5,5,5 ],Matched with air[ air5,5,6 ],Matched with air[ air5,5,7 ],Matched with air[ note_block5,5,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ note_block6,5,0 ],Matched with note_block[ air6,5,1 ],Matched with air[ air6,5,2 ],Matched with air[ air6,5,3 ],Matched with air[ air6,5,4 ],Matched with air[ air6,5,5 ],Matched with air[ air6,5,6 ],Matched with air[ air6,5,7 ],Matched with air[ note_block6,5,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ air7,5,0 ],Matched with air[ glass7,5,1 ],Matched with glass[ air7,5,2 ],Matched with air[ air7,5,3 ],Matched with air[ air7,5,4 ],Matched with air[ air7,5,5 ],Matched with air[ air7,5,6 ],Matched with air[ bone_block7,5,7 ],Matched with bone_block[ air7,5,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,5,0 ],Matched with air[ air8,5,1 ],Matched with air[ note_block8,5,2 ],Matched with note_block[ note_block8,5,3 ],Matched with note_block[ note_block8,5,4 ],Matched with note_block[ note_block8,5,5 ],Matched with note_block[ note_block8,5,6 ],Matched with note_block[ air8,5,7 ],Matched with air[ air8,5,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 6 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,6,0 ],Matched with air[ iron_block0,6,1 ],Matched with iron_block[ air0,6,2 ],Matched with air[ air0,6,3 ],Matched with air[ air0,6,4 ],Matched with air[ air0,6,5 ],Matched with air[ air0,6,6 ],Matched with air[ iron_block0,6,7 ],Matched with iron_block[ air0,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ iron_block1,6,0 ],Matched with iron_block[ note_block1,6,1 ],Matched with note_block[ air1,6,2 ],Matched with air[ air1,6,3 ],Matched with air[ air1,6,4 ],Matched with air[ air1,6,5 ],Matched with air[ air1,6,6 ],Matched with air[ note_block1,6,7 ],Matched with note_block[ iron_block1,6,8 ],Matched with iron_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ air2,6,0 ],Matched with air[ air2,6,1 ],Matched with air[ air2,6,2 ],Matched with air[ air2,6,3 ],Matched with air[ air2,6,4 ],Matched with air[ air2,6,5 ],Matched with air[ air2,6,6 ],Matched with air[ air2,6,7 ],Matched with air[ air2,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ air3,6,0 ],Matched with air[ air3,6,1 ],Matched with air[ air3,6,2 ],Matched with air[ air3,6,3 ],Matched with air[ air3,6,4 ],Matched with air[ air3,6,5 ],Matched with air[ air3,6,6 ],Matched with air[ air3,6,7 ],Matched with air[ air3,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ air4,6,0 ],Matched with air[ air4,6,1 ],Matched with air[ air4,6,2 ],Matched with air[ air4,6,3 ],Matched with air[ air4,6,4 ],Matched with air[ air4,6,5 ],Matched with air[ air4,6,6 ],Matched with air[ air4,6,7 ],Matched with air[ air4,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ air5,6,0 ],Matched with air[ air5,6,1 ],Matched with air[ air5,6,2 ],Matched with air[ air5,6,3 ],Matched with air[ air5,6,4 ],Matched with air[ air5,6,5 ],Matched with air[ air5,6,6 ],Matched with air[ air5,6,7 ],Matched with air[ air5,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ air6,6,0 ],Matched with air[ air6,6,1 ],Matched with air[ air6,6,2 ],Matched with air[ air6,6,3 ],Matched with air[ air6,6,4 ],Matched with air[ air6,6,5 ],Matched with air[ air6,6,6 ],Matched with air[ air6,6,7 ],Matched with air[ air6,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ soul_sand7,6,0 ],Matched with soul_sand[ note_block7,6,1 ],Matched with note_block[ air7,6,2 ],Matched with air[ air7,6,3 ],Matched with air[ air7,6,4 ],Matched with air[ air7,6,5 ],Matched with air[ air7,6,6 ],Matched with air[ note_block7,6,7 ],Matched with note_block[ bone_block7,6,8 ],Matched with bone_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,6,0 ],Matched with air[ bone_block8,6,1 ],Matched with bone_block[ air8,6,2 ],Matched with air[ air8,6,3 ],Matched with air[ air8,6,4 ],Matched with air[ air8,6,5 ],Matched with air[ air8,6,6 ],Matched with air[ bone_block8,6,7 ],Matched with bone_block[ air8,6,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 7 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ air0,7,0 ],Matched with air[ note_block0,7,1 ],Matched with note_block[ iron_block0,7,2 ],Matched with iron_block[ iron_block0,7,3 ],Matched with iron_block[ iron_block0,7,4 ],Matched with iron_block[ iron_block0,7,5 ],Matched with iron_block[ iron_block0,7,6 ],Matched with iron_block[ note_block0,7,7 ],Matched with note_block[ air0,7,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ note_block1,7,0 ],Matched with note_block[ air1,7,1 ],Matched with air[ air1,7,2 ],Matched with air[ air1,7,3 ],Matched with air[ air1,7,4 ],Matched with air[ air1,7,5 ],Matched with air[ air1,7,6 ],Matched with air[ air1,7,7 ],Matched with air[ note_block1,7,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ iron_block2,7,0 ],Matched with iron_block[ air2,7,1 ],Matched with air[ air2,7,2 ],Matched with air[ air2,7,3 ],Matched with air[ air2,7,4 ],Matched with air[ air2,7,5 ],Matched with air[ air2,7,6 ],Matched with air[ air2,7,7 ],Matched with air[ iron_block2,7,8 ],Matched with iron_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ iron_block3,7,0 ],Matched with iron_block[ air3,7,1 ],Matched with air[ air3,7,2 ],Matched with air[ air3,7,3 ],Matched with air[ air3,7,4 ],Matched with air[ air3,7,5 ],Matched with air[ air3,7,6 ],Matched with air[ air3,7,7 ],Matched with air[ iron_block3,7,8 ],Matched with iron_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ bone_block4,7,0 ],Matched with bone_block[ air4,7,1 ],Matched with air[ air4,7,2 ],Matched with air[ air4,7,3 ],Matched with air[ air4,7,4 ],Matched with air[ air4,7,5 ],Matched with air[ air4,7,6 ],Matched with air[ air4,7,7 ],Matched with air[ bone_block4,7,8 ],Matched with bone_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ bone_block5,7,0 ],Matched with bone_block[ air5,7,1 ],Matched with air[ air5,7,2 ],Matched with air[ air5,7,3 ],Matched with air[ air5,7,4 ],Matched with air[ air5,7,5 ],Matched with air[ air5,7,6 ],Matched with air[ air5,7,7 ],Matched with air[ bone_block5,7,8 ],Matched with bone_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ bone_block6,7,0 ],Matched with bone_block[ air6,7,1 ],Matched with air[ air6,7,2 ],Matched with air[ air6,7,3 ],Matched with air[ air6,7,4 ],Matched with air[ air6,7,5 ],Matched with air[ air6,7,6 ],Matched with air[ air6,7,7 ],Matched with air[ bone_block6,7,8 ],Matched with bone_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ note_block7,7,0 ],Matched with note_block[ air7,7,1 ],Matched with air[ air7,7,2 ],Matched with air[ air7,7,3 ],Matched with air[ air7,7,4 ],Matched with air[ air7,7,5 ],Matched with air[ air7,7,6 ],Matched with air[ air7,7,7 ],Matched with air[ note_block7,7,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ air8,7,0 ],Matched with air[ note_block8,7,1 ],Matched with note_block[ bone_block8,7,2 ],Matched with bone_block[ bone_block8,7,3 ],Matched with bone_block[ bone_block8,7,4 ],Matched with bone_block[ bone_block8,7,5 ],Matched with bone_block[ bone_block8,7,6 ],Matched with bone_block[ note_block8,7,7 ],Matched with note_block[ air8,7,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] =====[ 8 ]=====
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x0=>[ brown_wool0,8,0 ],Matched with brown_wool[ air0,8,1 ],Matched with air[ note_block0,8,2 ],Matched with note_block[ note_block0,8,3 ],Matched with note_block[ note_block0,8,4 ],Matched with note_block[ note_block0,8,5 ],Matched with note_block[ note_block0,8,6 ],Matched with note_block[ air0,8,7 ],Matched with air[ gray_wool0,8,8 ],Matched with gray_wool
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x1=>[ air1,8,0 ],Matched with air[ air1,8,1 ],Matched with air[ air1,8,2 ],Matched with air[ air1,8,3 ],Matched with air[ air1,8,4 ],Matched with air[ air1,8,5 ],Matched with air[ air1,8,6 ],Matched with air[ air1,8,7 ],Matched with air[ air1,8,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x2=>[ note_block2,8,0 ],Matched with note_block[ air2,8,1 ],Matched with air[ note_block2,8,2 ],Matched with note_block[ note_block2,8,3 ],Matched with note_block[ note_block2,8,4 ],Matched with note_block[ note_block2,8,5 ],Matched with note_block[ note_block2,8,6 ],Matched with note_block[ air2,8,7 ],Matched with air[ note_block2,8,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x3=>[ note_block3,8,0 ],Matched with note_block[ air3,8,1 ],Matched with air[ note_block3,8,2 ],Matched with note_block[ note_block3,8,3 ],Matched with note_block[ note_block3,8,4 ],Matched with note_block[ note_block3,8,5 ],Matched with note_block[ note_block3,8,6 ],Matched with note_block[ air3,8,7 ],Matched with air[ note_block3,8,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x4=>[ note_block4,8,0 ],Matched with note_block[ air4,8,1 ],Matched with air[ note_block4,8,2 ],Matched with note_block[ note_block4,8,3 ],Matched with note_block[ note_block4,8,4 ],Matched with note_block[ note_block4,8,5 ],Matched with note_block[ note_block4,8,6 ],Matched with note_block[ air4,8,7 ],Matched with air[ note_block4,8,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x5=>[ note_block5,8,0 ],Matched with note_block[ air5,8,1 ],Matched with air[ note_block5,8,2 ],Matched with note_block[ note_block5,8,3 ],Matched with note_block[ note_block5,8,4 ],Matched with note_block[ note_block5,8,5 ],Matched with note_block[ note_block5,8,6 ],Matched with note_block[ air5,8,7 ],Matched with air[ note_block5,8,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x6=>[ note_block6,8,0 ],Matched with note_block[ air6,8,1 ],Matched with air[ note_block6,8,2 ],Matched with note_block[ note_block6,8,3 ],Matched with note_block[ note_block6,8,4 ],Matched with note_block[ note_block6,8,5 ],Matched with note_block[ note_block6,8,6 ],Matched with note_block[ air6,8,7 ],Matched with air[ note_block6,8,8 ],Matched with note_block
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x7=>[ air7,8,0 ],Matched with air[ air7,8,1 ],Matched with air[ air7,8,2 ],Matched with air[ air7,8,3 ],Matched with air[ air7,8,4 ],Matched with air[ air7,8,5 ],Matched with air[ air7,8,6 ],Matched with air[ air7,8,7 ],Matched with air[ air7,8,8 ],Matched with air
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] x8=>[ orange_wool8,8,0 ],Matched with orange_wool[ air8,8,1 ],Matched with air[ note_block8,8,2 ],Matched with note_block[ note_block8,8,3 ],Matched with note_block[ note_block8,8,4 ],Matched with note_block[ note_block8,8,5 ],Matched with note_block[ note_block8,8,6 ],Matched with note_block[ air8,8,7 ],Matched with air[ yellow_wool8,8,8 ],Matched with yellow_wool
+[04:50:55] [Server thread/INFO] (Minecraft) [System] [CHAT] Is Matched: true
+[04:51:32] [Render thread/INFO] (Minecraft) Stopping!
+[04:51:32] [Server thread/INFO] (Minecraft) Player467 lost connection: Disconnected
+[04:51:32] [Server thread/INFO] (Minecraft) Player467 left the game
+[04:51:32] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[04:51:32] [Server thread/INFO] (Minecraft) Stopping server
+[04:51:32] [Server thread/INFO] (Minecraft) Saving players
+[04:51:32] [Server thread/INFO] (Minecraft) Saving worlds
+[04:51:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:overworld
+[04:51:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_end
+[04:51:33] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[新規ワールド]'/minecraft:the_nether
+[04:51:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (新規ワールド (2)): All chunks are saved
+[04:51:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:51:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:51:33] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
