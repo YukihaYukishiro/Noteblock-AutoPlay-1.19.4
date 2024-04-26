@@ -17,7 +17,7 @@ public class AutoNbsPlayer implements ModInitializer {
 	public static final MinecraftClient MC = MinecraftClient.getInstance();
 
 	public static final String MOD_ID = "auto_nbs_player";
-	public static final Logger LOGGER = LoggerFactory.getLogger("MOD_ID");
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static final Path MOD_DIR = Path.of("nbsplayer");
 	public static final Path SONG_DIR = Path.of("nbsplayer", "nbs");
 	public static final Path PLAYLIST_DIR = Path.of("nbsplayer", "playlist");
@@ -25,7 +25,6 @@ public class AutoNbsPlayer implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
-		ReadNbt.nbtTest();
 
 		if (!Files.exists(MOD_DIR)) {
 			try {

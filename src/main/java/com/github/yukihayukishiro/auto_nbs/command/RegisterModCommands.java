@@ -20,7 +20,9 @@ public class RegisterModCommands {
                                                 .then((LiteralArgumentBuilder) CommandManager
                                                                 .literal("getblockaroundplayer")
                                                                 .executes(GetBlockAroundPlayerTest::run))
-                                                                )));
+                                                .then((LiteralArgumentBuilder) CommandManager
+                                                                .literal("getNbt")
+                                                                .executes(ReadNbt::run)))));
         }
 
 }

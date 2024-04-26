@@ -18,20 +18,19 @@ public class GetBlockAroundPlayerTest {
         player.sendMessage(Text.of("Player position: " + playerPos.toString()), false);
         Block[][][] area = GetBlocksInRange.getBlocksInRange(playerPos);
         player.sendMessage(Text.of("First: " + area[0][0][0].getName().getString()), false);
-        player.sendMessage(Text.of("Last: " + area[4][4][4].getName().getString()), false);
-        //convert area to string
+        player.sendMessage(Text.of("Last: " + area[8][8][8].getName().getString()), false);
+        // convert area to string
         String temp = "";
-        for (int y = 0; y < 5; y++) {
+        for (int y = 0; y < 9; y++) {
             player.sendMessage(Text.of("=====[ " + y + " ]====="), false);
-            for (int x = 0; x < 5; x++) {
+            for (int x = 0; x < 9; x++) {
                 temp = "x" + x + "=>";
-                for (int z = 0; z < 5; z++) {
+                for (int z = 0; z < 9; z++) {
                     temp += "[ " + area[x][y][z].getName().getString() + " ]" + ",";
                 }
                 player.sendMessage(Text.of(temp), false);
             }
         }
-
 
         return 1;
     }
