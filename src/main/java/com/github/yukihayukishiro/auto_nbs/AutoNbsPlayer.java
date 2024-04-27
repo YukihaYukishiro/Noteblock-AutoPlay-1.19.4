@@ -2,17 +2,19 @@ package com.github.yukihayukishiro.auto_nbs;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.text.Text;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.github.yukihayukishiro.auto_nbs.command.testCommands.ReadNbt;
-
 public class AutoNbsPlayer implements ModInitializer {
+
+	public static Queue<int[]> tuneing_queue = new ArrayDeque<>();
 
 	public static final MinecraftClient MC = MinecraftClient.getInstance();
 
@@ -47,12 +49,5 @@ public class AutoNbsPlayer implements ModInitializer {
 		ANPRegister.registerEverything();
 	}
 
-	public static void addChatMessage(String message) {
-		MC.player.sendMessage(Text.of(message), false);
-	}
-
-	public static void addChatMessage(Text text) {
-		MC.player.sendMessage(text, false);
-	}
 
 }

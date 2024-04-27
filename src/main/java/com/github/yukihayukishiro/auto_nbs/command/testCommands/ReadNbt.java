@@ -8,11 +8,13 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+
+import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.text.Text;
 
 public class ReadNbt {
-   public static int run(CommandContext<ServerCommandSource> context){
+   public static int run(CommandContext<FabricClientCommandSource> context){
       File file = new File(Path.of("nbsplayer", "autonbsplay.nbt").toString());
       NbtStructure nbtStructure = new NbtStructure(file);
 
