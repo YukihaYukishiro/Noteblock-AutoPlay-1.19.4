@@ -12,9 +12,11 @@ import java.util.Queue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.github.yukihayukishiro.auto_nbs.utils.AutoNbsTask;
+
 public class AutoNbsPlayer implements ModInitializer {
 
-	public static Queue<int[]> tuneing_queue = new ArrayDeque<>();
+	public static Queue<AutoNbsTask> queue = new ArrayDeque<>();
 
 	public static final MinecraftClient MC = MinecraftClient.getInstance();
 

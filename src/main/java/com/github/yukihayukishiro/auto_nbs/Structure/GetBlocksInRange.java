@@ -1,4 +1,4 @@
-package com.github.yukihayukishiro.auto_nbs.utils;
+package com.github.yukihayukishiro.auto_nbs.Structure;
 
 import net.minecraft.util.math.BlockPos;
 

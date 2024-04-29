@@ -1,7 +1,7 @@
 package com.github.yukihayukishiro.auto_nbs.command.testCommands;
 
 import com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer;
-import com.github.yukihayukishiro.auto_nbs.utils.NbtStructure;
+import com.github.yukihayukishiro.auto_nbs.Structure.NbtStructure;
 import com.mojang.brigadier.context.CommandContext;
 
 import java.io.File;

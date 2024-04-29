@@ -4,27 +4,22 @@ import java.io.File;
 import java.util.Map;
 
 import com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer;
-
+import com.github.yukihayukishiro.auto_nbs.Structure.ConfirmStructure;
+import com.github.yukihayukishiro.auto_nbs.Structure.GetBlocksInRange;
+import com.github.yukihayukishiro.auto_nbs.Structure.NbtStructure;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.NoteBlock;
 import net.minecraft.text.Text;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
-import net.minecraft.util.math.Vec3d;
 
 public class Stage {
-    private BlockPos centerPos;
-    private Map<String, int[][]> stage;
 
-    public Stage(BlockPos centerPos, File file) {
+    public static void defalt_Stage(BlockPos centerPos, File file) {
         AutoNbsPlayer.MC.player.sendMessage(Text.of("Initializing Stage with center pos:" + centerPos), false);
 
         if (ConfirmStructure.confirmStructure(centerPos, file)) {
             MessageHandler.sendFeedback("Structure confirmed");
             MessageHandler.sendFeedback("Continue initialization");
-
 
             Map<String, Object>[][][] structure_blocks = new NbtStructure(file).getBlocks();
 
@@ -40,19 +35,22 @@ public class Stage {
                         Map<String, Object> structure_properties = (Map<String, Object>) structure_blocks[x][y][z]
                                 .get("Properties");
 
-
                         if (blockName.equals("note_block")) {
                             int structure_note = (int) Integer
                                     .parseInt(structure_properties.get("note").toString());
                             int note = (int) block.get(NoteBlock.NOTE);
                             BlockPos bp = coordinates[x][y][z];
-                            double dx = bp.getX() + 0.5;
-                            double dy = bp.getY() + 0.5;
-                            double dz = bp.getZ() + 0.5;
-                            while (note != structure_note) {
-                                AutoNbsPlayer.MC.interactionManager.interactBlock(AutoNbsPlayer.MC.player, Hand.MAIN_HAND, new BlockHitResult(new Vec3d(dx,dy,dz), Direction.UP, bp, false));
-                                block = AutoNbsPlayer.MC.world.getBlockState(coordinates[x][y][z]);
-                                note = (int) block.get(NoteBlock.NOTE);
+                            if (note != structure_note) {
+                                int target = structure_note;
+                                int n = note;
+                                if (target < note) {
+                                    target += 25 - note;
+                                    n = 0;
+                                }
+
+                                for (int i = n; i < target; i++) {
+                                    AutoNbsPlayer.queue.add(new AutoNbsTask("right", bp, 0));
+                                }
                             }
 
                         }
@@ -64,7 +62,6 @@ public class Stage {
             MessageHandler.sendFeedback("Structure not confirmed");
             MessageHandler.sendFeedback("Initialization failed");
 
-            stage = null;
         }
 
     }

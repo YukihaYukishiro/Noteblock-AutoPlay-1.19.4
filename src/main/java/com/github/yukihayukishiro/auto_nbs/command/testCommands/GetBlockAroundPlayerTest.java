@@ -5,9 +5,9 @@ import java.nio.file.Path;
 import java.util.Map;
 
 import com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer;
-import com.github.yukihayukishiro.auto_nbs.utils.ConfirmStructure;
-import com.github.yukihayukishiro.auto_nbs.utils.GetBlocksInRange;
-import com.github.yukihayukishiro.auto_nbs.utils.NbtStructure;
+import com.github.yukihayukishiro.auto_nbs.Structure.ConfirmStructure;
+import com.github.yukihayukishiro.auto_nbs.Structure.GetBlocksInRange;
+import com.github.yukihayukishiro.auto_nbs.Structure.NbtStructure;
 import com.mojang.brigadier.context.CommandContext;
 
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;

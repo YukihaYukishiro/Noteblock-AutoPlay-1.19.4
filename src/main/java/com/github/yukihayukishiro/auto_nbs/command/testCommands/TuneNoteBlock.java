@@ -1,6 +1,7 @@
 package com.github.yukihayukishiro.auto_nbs.command.testCommands;
 
 import com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer;
+import com.github.yukihayukishiro.auto_nbs.utils.AutoNbsTask;
 import com.github.yukihayukishiro.auto_nbs.utils.MessageHandler;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.context.CommandContext;
@@ -28,16 +29,27 @@ public class TuneNoteBlock {
         }
 
         for(int i = note; i<target;i++){
-            AutoNbsPlayer.tuneing_queue.add(new int[]{playerPos.getX(),playerPos.getY(),playerPos.getZ()});
+            AutoNbsPlayer.queue.add(new AutoNbsTask("right", playerPos, 0));
         }
         
-
-
-
-
-
         return 1;
     }
+
+    public static int run_b(CommandContext<FabricClientCommandSource> context) {
+        int target = IntegerArgumentType.getInteger(context, "num") ;
+        PlayerEntity player = AutoNbsPlayer.MC.player;
+        final BlockPos playerPos = player.getBlockPos().add(0, -1, 0);
+        MessageHandler.sendFeedback("Player position: " + playerPos.toString());
+        MessageHandler.sendFeedback("Target: " + target);
+
+
+        for(int i = 0; i<target;i++){
+            AutoNbsPlayer.queue.add(new AutoNbsTask("left", playerPos, 20));
+        }
+        
+        return 1;
+    }
+
 
     
 }
