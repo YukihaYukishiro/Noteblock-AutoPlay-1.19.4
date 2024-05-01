@@ -2,8 +2,8 @@ package com.github.yukihayukishiro.auto_nbs.utils;
 
 import java.io.File;
 import java.util.Map;
-
 import com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer;
+
 import com.github.yukihayukishiro.auto_nbs.Structure.ConfirmStructure;
 import com.github.yukihayukishiro.auto_nbs.Structure.GetBlocksInRange;
 import com.github.yukihayukishiro.auto_nbs.Structure.NbtStructure;
@@ -13,6 +13,13 @@ import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 
 public class Stage {
+
+    Map<String, BlockPos[]> stage;
+
+    public Stage(BlockPos centerPos) {
+        AutoNbsPlayer.MC.player.sendMessage(Text.of("Initializing Stage with center pos:" + centerPos), false);
+
+    }
 
     public static void defalt_Stage(BlockPos centerPos, File file) {
         AutoNbsPlayer.MC.player.sendMessage(Text.of("Initializing Stage with center pos:" + centerPos), false);
