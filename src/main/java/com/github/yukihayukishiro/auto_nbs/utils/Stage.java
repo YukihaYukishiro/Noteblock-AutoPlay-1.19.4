@@ -1,24 +1,57 @@
 package com.github.yukihayukishiro.auto_nbs.utils;
 
 import java.io.File;
+import java.util.HashMap;
 import java.util.Map;
 import com.github.yukihayukishiro.auto_nbs.AutoNbsPlayer;
 
 import com.github.yukihayukishiro.auto_nbs.Structure.ConfirmStructure;
 import com.github.yukihayukishiro.auto_nbs.Structure.GetBlocksInRange;
 import com.github.yukihayukishiro.auto_nbs.Structure.NbtStructure;
+
 import net.minecraft.block.BlockState;
 import net.minecraft.block.NoteBlock;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 
 public class Stage {
 
-    Map<String, BlockPos[]> stage;
+    Map<String, BlockPos> stage = new HashMap<String, BlockPos>();
 
     public Stage(BlockPos centerPos) {
         AutoNbsPlayer.MC.player.sendMessage(Text.of("Initializing Stage with center pos:" + centerPos), false);
 
+        int range = 4;
+        int centerX = centerPos.getX();
+        int centerY = centerPos.getY();
+        int centerZ = centerPos.getZ();
+
+        for (int y = 0; y < 9; y++) {
+            for (int x = 0; x < 9; x++) {
+                for (int z = 0; z < 9; z++) {
+                    BlockPos current = new BlockPos(((centerX - range) + x), ((centerY - range) + y),
+                            ((centerZ - range) + z));
+                    BlockState block = AutoNbsPlayer.MC.world.getBlockState(current);
+                    ;
+                    if (block.getBlock() instanceof NoteBlock) {
+                        AutoNbsPlayer.MC.player.sendMessage(Text.of("Note block found at:" + current), false);
+                        Instrument instrument = block.get(NoteBlock.INSTRUMENT);
+                        int note = block.get(NoteBlock.NOTE);
+                        AutoNbsPlayer.MC.player.sendMessage(Text.of(instrument + ":" + note), false);
+                        stage.put(instrument.toString() + ":" + note, current);
+                    }
+
+                }
+            }
+        }
+    }
+
+    public void playNote(String instrument, int note) {
+        BlockPos target = stage.get(instrument + ":" + note);
+        AutoNbsPlayer.MC.player.sendMessage(Text.of("Playing note:" + instrument + ":" + note + " at:" + target),
+                false);
+        AutoNbsPlayer.queue.add(new AutoNbsTask("left", target, 0));
     }
 
     public static void defalt_Stage(BlockPos centerPos, File file) {
